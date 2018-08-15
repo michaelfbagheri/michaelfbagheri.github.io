@@ -93,10 +93,6 @@
     display: block;
 	font-size: 0px;
     height: 5px;
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
     border-width: 0;
     width: 100%;   
 }
