@@ -12,7 +12,8 @@
     background-color: #4aaaa5;
     color: white;
     float: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    
     height: 61px;
     margin: 0;
     padding: 10px 0 0 0;
@@ -24,6 +25,7 @@
 .style {
     margin: 0;
 }
+
 
 .navstyle {
     float: right;
@@ -56,6 +58,9 @@
     padding: 0 20px;
     position: relative;
     width: 960px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Sawarabi Mincho', sans-serif;
 
 }
 
@@ -67,6 +72,7 @@
 
 .indentcontent{
     margin: 0 0 0 10px;
+    font-family: 'Sawarabi Mincho', sans-serif;
 }
 
 
@@ -101,7 +107,14 @@
     border:grey;
     border-style: solid;
     border-width: 1px;
+    
 }
+
+.submitbutton:hover {
+    background-color: blue;
+    
+}
+
 
 .myimage { 
     border: 2px solid black;
@@ -167,15 +180,31 @@
 }
 
 
+.topimagecontainer {
+    position: relative;
+    float: left;
+    width: 950px;
+}
+
+.bottomimagecontainer {
+    position: relative;
+    float: left;
+    width: 950px;
+}
+
+
 .Portimage1{
     position: relative;
     float: left;
     border: 2px solid black;
-	float: left;
     height: 150px;
     margin: 5px;
 	transform: rotate(0deg);
     width: 150px;
+}
+.piclabel {
+     text-align: center;
+     font-size: Auto;
 }
 
 
@@ -191,9 +220,21 @@
 }
 
 
-.piclabels2 {
-    position: fixed;
-    float: left;
-    margin: 102px 5px 1px;
 
+
+.portfoliocontainers {
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.comingsoon {
+    position: absolute;
+    bottom: 40px;
+    color: orangered;
+    width: 100%;
+    padding: 5;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
 }
